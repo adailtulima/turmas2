@@ -1,0 +1,27 @@
+
+{
+    "turmas2App": {
+        "aluno" : {
+            "home": {
+                "title": "Alunos",
+                "createLabel": "Criar novo Aluno",
+                "createOrEditLabel": "Criar ou editar Aluno"
+            },
+            "created": "Um novo Aluno foi criado com o identificador {{ param }}",
+            "updated": "Um Aluno foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Aluno foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Aluno {{ id }}?"
+            },
+            "detail": {
+                "title": "Aluno"
+            },
+            "nome": "Nome",
+            "dataNascimento": "Data Nascimento",
+            "idade": "Idade",
+            "matricula": "Matricula",
+            "sexo": "Sexo",
+            "turma": "Turma"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+
+{
+    "turmas2App": {
+        "aluno" : {
+            "home": {
+                "title": "Alunos",
+                "createLabel": "नया Aluno बनाएँ",
+                "createOrEditLabel": "Aluno बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Aluno [identifier: {{ param }}] तैयार है",
+            "updated": "एक Aluno [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Aluno [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Aluno [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Aluno"
+            },
+            "nome": "Nome",
+            "dataNascimento": "Data Nascimento",
+            "idade": "Idade",
+            "matricula": "Matricula",
+            "sexo": "Sexo",
+            "turma": "Turma"
+        }
+    }
+}

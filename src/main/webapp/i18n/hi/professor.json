@@ -1,0 +1,24 @@
+
+{
+    "turmas2App": {
+        "professor" : {
+            "home": {
+                "title": "Professors",
+                "createLabel": "नया Professor बनाएँ",
+                "createOrEditLabel": "Professor बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Professor [identifier: {{ param }}] तैयार है",
+            "updated": "एक Professor [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Professor [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Professor [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Professor"
+            },
+            "nome": "Nome",
+            "cargaHoraria": "Carga Horaria",
+            "turmas": "Turmas"
+        }
+    }
+}

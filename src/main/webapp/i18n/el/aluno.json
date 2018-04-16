@@ -1,0 +1,27 @@
+
+{
+    "turmas2App": {
+        "aluno" : {
+            "home": {
+                "title": "Alunos",
+                "createLabel": "Δημιουργήστε ένα νέο Aluno",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Aluno"
+            },
+            "created": "Ένα νέο Aluno έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Aluno έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Aluno έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Aluno {{ id }};"
+            },
+            "detail": {
+                "title": "Aluno"
+            },
+            "nome": "Nome",
+            "dataNascimento": "Data Nascimento",
+            "idade": "Idade",
+            "matricula": "Matricula",
+            "sexo": "Sexo",
+            "turma": "Turma"
+        }
+    }
+}

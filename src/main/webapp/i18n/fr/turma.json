@@ -1,0 +1,25 @@
+
+{
+    "turmas2App": {
+        "turma" : {
+            "home": {
+                "title": "Turmas",
+                "createLabel": "Créer un nouveau Turma",
+                "createOrEditLabel": "Créer ou éditer un Turma"
+            },
+            "created": "Un nouveau Turma a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Turma avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Turma avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Turma {{ id }} ?"
+            },
+            "detail": {
+                "title": "Turma"
+            },
+            "numero": "Numero",
+            "nAlunos": "N Alunos",
+            "alunos": "Alunos",
+            "professores": "Professores"
+        }
+    }
+}

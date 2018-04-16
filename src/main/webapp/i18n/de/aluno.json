@@ -1,0 +1,27 @@
+
+{
+    "turmas2App": {
+        "aluno" : {
+            "home": {
+                "title": "Alunos",
+                "createLabel": "Aluno erstellen",
+                "createOrEditLabel": "Aluno erstellen oder bearbeiten"
+            },
+            "created": "Aluno erstellt mit ID {{ param }}",
+            "updated": "Aluno aktualisiert mit ID {{ param }}",
+            "deleted": "Aluno gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Aluno {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Aluno"
+            },
+            "nome": "Nome",
+            "dataNascimento": "Data Nascimento",
+            "idade": "Idade",
+            "matricula": "Matricula",
+            "sexo": "Sexo",
+            "turma": "Turma"
+        }
+    }
+}

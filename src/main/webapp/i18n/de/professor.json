@@ -1,0 +1,24 @@
+
+{
+    "turmas2App": {
+        "professor" : {
+            "home": {
+                "title": "Professors",
+                "createLabel": "Professor erstellen",
+                "createOrEditLabel": "Professor erstellen oder bearbeiten"
+            },
+            "created": "Professor erstellt mit ID {{ param }}",
+            "updated": "Professor aktualisiert mit ID {{ param }}",
+            "deleted": "Professor gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Professor {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Professor"
+            },
+            "nome": "Nome",
+            "cargaHoraria": "Carga Horaria",
+            "turmas": "Turmas"
+        }
+    }
+}

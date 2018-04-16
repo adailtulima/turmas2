@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "professores",
+            "relationshipName": "turmas",
+            "otherEntityName": "turma",
+            "otherEntityField": "numero",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cargaHoraria",
+            "fieldType": "Double"
+        }
+    ],
+    "changelogDate": "20180416142732",
+    "entityTableName": "professor",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}

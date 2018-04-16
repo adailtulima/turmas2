@@ -1,0 +1,24 @@
+
+{
+    "turmas2App": {
+        "professor" : {
+            "home": {
+                "title": "Professors",
+                "createLabel": "Δημιουργήστε ένα νέο Professor",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Professor"
+            },
+            "created": "Ένα νέο Professor έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Professor έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Professor έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Professor {{ id }};"
+            },
+            "detail": {
+                "title": "Professor"
+            },
+            "nome": "Nome",
+            "cargaHoraria": "Carga Horaria",
+            "turmas": "Turmas"
+        }
+    }
+}

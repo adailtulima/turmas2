@@ -1,0 +1,25 @@
+
+{
+    "turmas2App": {
+        "turma" : {
+            "home": {
+                "title": "Turmas",
+                "createLabel": "Lisa uus Turma",
+                "createOrEditLabel": "Lisa või muuda Turma"
+            },
+            "created": "Uus Turma on loodud identifikaatoriga {{ param }}",
+            "updated": "Turma identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Turma identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Turma {{ id }}?"
+            },
+            "detail": {
+                "title": "Turma"
+            },
+            "numero": "Numero",
+            "nAlunos": "N Alunos",
+            "alunos": "Alunos",
+            "professores": "Professores"
+        }
+    }
+}

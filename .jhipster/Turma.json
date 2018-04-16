@@ -1,0 +1,34 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "alunos",
+            "otherEntityName": "aluno",
+            "otherEntityRelationshipName": "turma"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "professores",
+            "otherEntityName": "professor",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "turmas"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "numero",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nAlunos",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180416142733",
+    "entityTableName": "turma",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}

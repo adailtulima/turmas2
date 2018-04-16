@@ -1,0 +1,39 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "turma",
+            "otherEntityName": "turma",
+            "otherEntityField": "numero"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataNascimento",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "idade",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "matricula",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sexo",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180416142731",
+    "entityTableName": "aluno",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}

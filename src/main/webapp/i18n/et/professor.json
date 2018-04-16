@@ -1,0 +1,24 @@
+
+{
+    "turmas2App": {
+        "professor" : {
+            "home": {
+                "title": "Professors",
+                "createLabel": "Lisa uus Professor",
+                "createOrEditLabel": "Lisa või muuda Professor"
+            },
+            "created": "Uus Professor on loodud identifikaatoriga {{ param }}",
+            "updated": "Professor identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Professor identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Professor {{ id }}?"
+            },
+            "detail": {
+                "title": "Professor"
+            },
+            "nome": "Nome",
+            "cargaHoraria": "Carga Horaria",
+            "turmas": "Turmas"
+        }
+    }
+}

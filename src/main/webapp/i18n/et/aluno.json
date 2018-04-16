@@ -1,0 +1,27 @@
+
+{
+    "turmas2App": {
+        "aluno" : {
+            "home": {
+                "title": "Alunos",
+                "createLabel": "Lisa uus Aluno",
+                "createOrEditLabel": "Lisa või muuda Aluno"
+            },
+            "created": "Uus Aluno on loodud identifikaatoriga {{ param }}",
+            "updated": "Aluno identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Aluno identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Aluno {{ id }}?"
+            },
+            "detail": {
+                "title": "Aluno"
+            },
+            "nome": "Nome",
+            "dataNascimento": "Data Nascimento",
+            "idade": "Idade",
+            "matricula": "Matricula",
+            "sexo": "Sexo",
+            "turma": "Turma"
+        }
+    }
+}
