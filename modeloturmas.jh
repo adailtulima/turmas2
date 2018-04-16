@@ -1,0 +1,30 @@
+
+
+entity Aluno {
+	nome String,
+    dataNascimento LocalDate,
+    idade Integer,
+    matricula String,
+    sexo String
+}
+
+entity Professor {
+	nome String,
+    cargaHoraria Double
+}
+
+entity Turma {
+	numero String,
+    nAlunos Integer
+}
+
+relationship OneToMany {
+	Turma{alunos(nome)} to Aluno{turma(numero)}
+}
+
+relationship ManyToMany {
+  Professor{turmas(numero)} to Turma{professores(nome)}  
+}
+
+
+
